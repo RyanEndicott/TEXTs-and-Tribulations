@@ -53,7 +53,30 @@ def door1():
        print("Choices are bed/closet/table")
    
    input("") 
-
+   
+def door2():
+   sprint("The smell of the fresh paint burns you nostrils, as you get closer.")
+   sprint("you begin to push the door open, and your hands become colder")
+   sprint("your hands are coverd in red pait")
+   sprint("When you step into the doorway, you are fightend by what you see.")
+   sprint("aginst the wall there is a human skeleton chained to the wall, to the left toilet, and at your feet the bucket of red paint")
+   sprint("you hear a loud crash as the door shuts behind you and you hear the lock turn, your stuck"
+   if (assist_mode == help):
+       print("Choices are paint/toilet/skeleton")
+   
+   input("")
+          
+def door3():
+   sprint("as you try to push the door open, it doesn't move")
+   sprint("you look around the room and find a crobar")
+   sprint("you use the crobar to open the door")
+   sprint("when you step into the room the crobar in you hand turns to dust")
+   sprint("In the room you see a large cage filled with shrews, and crickets")
+   sprint("on another wall you see a breaker box, and a chalkboard with a large math equation"
+   if (assist_mode == help):
+       print("Choices are cage/breaker/chalkboard")
+   
+   input("") 
 
 
 
