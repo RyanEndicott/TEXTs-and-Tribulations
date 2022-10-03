@@ -1,6 +1,4 @@
-#Allows Code to Run on Website
-import cgitb 
-cgitb.enable()
+
 
 
 
@@ -58,9 +56,9 @@ def door2():
    sprint("The smell of the fresh paint burns you nostrils, as you get closer.")
    sprint("You begin to push the door open, and your hands become colder")
    sprint("Your hands are coverd in red pait")
-   sprint("When you step into the doorway, you are fightend by what you see.")
-   sprint("Aginst the wall there is a human skeleton chained to the wall, to the left toilet, and at your feet the bucket of red paint")
-   sprint("You hear a loud crash as the door shuts behind you and you hear the lock turn, your stuck"
+   sprint("When you step into the doorway, you are frightend by what you see.")
+   sprint("Against the wall there is a skeleton chained to the wall, to the left is a toilet, and at your feet the bucket of red paint")
+   sprint("You hear a loud crash as the door shuts behind you and you hear the lock turn, trapping you inside the room"
    if (assist_mode == help):
        print("Choices are paint/toilet/skeleton")
    
