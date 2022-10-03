@@ -50,7 +50,12 @@ def door1():
    if (assist_mode == help):
        print("Choices are bed/closet/table")
    
-   input("") 
+if answer.lower().strip == "yes":
+   
+else:
+   print("thats not right!")
+  
+input("") 
    
 def door2():
    sprint("The smell of the fresh paint burns you nostrils, as you get closer.")
@@ -61,6 +66,11 @@ def door2():
    sprint("You hear a loud crash as the door shuts behind you and you hear the lock turn, trapping you inside the room"
    if (assist_mode == help):
        print("Choices are paint/toilet/skeleton")
+          
+if answer.lower().strip == "yes":
+   
+else:
+   print("thats not right!")
    
    input("")
           
@@ -74,6 +84,11 @@ def door3():
    if (assist_mode == help):
        print("Choices are cage/breaker/chalkboard")
    
+ if answer.lower().strip == "yes":
+   
+else:
+   print("thats not right!")      
+          
    input("") 
 
 
